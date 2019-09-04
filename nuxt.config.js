@@ -11,6 +11,9 @@ export default {
   modules: [
   ],
   build: {
+    build: {
+      transpile: ['mathlive']
+    },
     /*
     ** You can extend webpack config here
     */
